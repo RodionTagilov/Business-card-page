@@ -1,5 +1,8 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    background-color: #FDF5E6;
+    background-color: #fdf5e6;
     color: #444444;
     font-family: Arial;
     padding: 20px 40px;
@@ -18,4 +21,10 @@ nav a {
 }
 nav a:hover {
     color: #0056b3;
+}
+section {
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
