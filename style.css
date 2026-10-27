@@ -4,7 +4,7 @@
 body {
     background-color: #fdf5e6;
     color: #444444;
-    font-family: Arial;
+    font-family: 'Rubik', sans-serif;
     padding: 20px 40px;
     line-height: 1.6;
     max-width: 900px; margin: 0 auto;
@@ -13,6 +13,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     gap: 20px;
+    justify-content: center;
 }
 nav a {
     text-decoration: none;
@@ -27,4 +28,11 @@ section {
     border-radius: 15px;
     padding: 10px;
     margin-bottom: 10px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+header {
+    text-align: center;
 }
