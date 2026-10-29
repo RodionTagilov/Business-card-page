@@ -9,6 +9,13 @@ body {
     line-height: 1.6;
     max-width: 900px; margin: 0 auto;
 }
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+header {
+    text-align: center;
+}
 nav ul {
     list-style-type: none;
     display: flex;
@@ -23,7 +30,10 @@ nav a {
 nav a:hover {
     color: #0056b3;
 }
-section {
+footer {
+    text-align: center;
+}
+.card {
     border: 1px solid #cccccc;
     border-radius: 15px;
     padding: 20px;
@@ -32,17 +42,13 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-h1 {
-    font-size: 40px;
-    font-weight: 700;
-}
-header {
-    text-align: center;
-}
-footer {
-    text-align: center;
-}
-section:hover {
+.card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
 }
